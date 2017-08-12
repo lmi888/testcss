@@ -1,33 +1,43 @@
-/* http://learnlayout.com/display.html */
+/* http://learnlayout.com/position.html */
 
 body {
-  margin-bottom: 100px;
-}
+  background-color: seashell;
+  margin: 0;
+  padding: 0;
 
-.container {
-  position: relative;
 }
 
 header {
-  width: 800px;
+  margin-bottom: 50px;
   text-align: center;
-
 }
 
-nav {
-  position: absolute;
-  left: 0;
-  width: 150px;
+.wrapper {
+  position: relative;
+  width: 700px;
+
 }
 
 section {
-  margin-left: 150px;
+  margin-left: 200px;
 }
 
-footer {
+nav {
+  width: 120px;
+position: absolute;
+top: 30;
+left: 0;
+background-color: burlywood;
+
+
+}
+
+
+.footer {
   position: fixed;
-  width: 800px;
   bottom: 0;
-  left: 0;
-  height: 70px;
+  right: 0;
+  width: 500px;
+
+
 }
