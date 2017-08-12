@@ -1,0 +1,33 @@
+/* http://learnlayout.com/display.html */
+
+body {
+  margin-bottom: 100px;
+}
+
+.container {
+  position: relative;
+}
+
+header {
+  width: 800px;
+  text-align: center;
+
+}
+
+nav {
+  position: absolute;
+  left: 0;
+  width: 150px;
+}
+
+section {
+  margin-left: 150px;
+}
+
+footer {
+  position: fixed;
+  width: 800px;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+}
